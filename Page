@@ -8,7 +8,7 @@
         /* CSS to style the header */
         header {
             background-color: #4CAF50;
-            color: white;
+            color: purple;
             text-align: center;
             padding: 1em;
         }
@@ -34,15 +34,7 @@
 
     <!-- Header section -->
     <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Header</h1>
     </header>
 
     <!-- Rest of the page content -->

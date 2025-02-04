@@ -482,6 +482,6 @@ HTML
             <button type="button" onclick="alert('Cancelled')">Cancel</button>
         </div>
     </form>
-
+<img src="https://www.cygnus-x1.net/links/lcars/epics/TOS-S3/S3E19/TOS-S3E19-87.jpg" alt="Star Trek Image">
 </body>
 </html>

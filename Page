@@ -44,7 +44,6 @@
     </div>
 
 </body>
-</html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -109,7 +108,6 @@
     </form>
 
 </body>
-</html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -153,7 +151,7 @@
     </div>
 
 </body>
-</html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -222,7 +220,7 @@
     </form>
 
 </body>
-</html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -280,7 +278,7 @@
     </footer>
 
 </body>
-</html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -353,7 +351,7 @@
         <p>&copy; 2025 Your Company. All rights reserved.</p>
     </footer>
 </body>
-</html>
+
  Public code references from 12 repositories
 I will now update the Page file in the repository with this content.Here is the updated HTML content with the footer added:
 
@@ -417,7 +415,7 @@ HTML
     </footer>
 
 </body>
-</html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

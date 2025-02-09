@@ -45,5 +45,57 @@
             ctx.stroke();
         };
     </script>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Example</title>
+    <style>
+        canvas {
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+    <button id="myButton">Click Me</button>
+    <script>
+        window.onload = function() {
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+
+            // Draw Blue rectangle
+            ctx.fillStyle = "blue";
+            ctx.fillRect(50, 50, 150, 100);
+
+            // Draw Red circle
+            ctx.beginPath();
+            ctx.arc(300, 100, 50, 0, 2 * Math.PI, false);
+            ctx.fillStyle = "red";
+            ctx.fill();
+
+            // Draw Green triangle
+            ctx.beginPath();
+            ctx.moveTo(100, 300);
+            ctx.lineTo(50, 400);
+            ctx.lineTo(150, 400);
+            ctx.closePath();
+            ctx.fillStyle = "green";
+            ctx.fill();
+
+            // Draw Yellow line
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            ctx.lineTo(500, 500);
+            ctx.strokeStyle = "yellow";
+            ctx.stroke();
+
+            // Add event listener to button to clear the canvas
+            document.getElementById("myButton").addEventListener("click", function() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+            });
+        };
+    </script>
+</body>
 </body>
 </html>
